@@ -2,21 +2,27 @@
     "name": "stat-tracker",
     "version": "1.0.0",
     "description": "Discord bot that handles game stats.",
-    "main": "index.js",
+    "main": "bot.js",
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/justindjsuh/StatTracker"
+        "type": "git",
+        "url": "git+https://github.com/justindjsuh/StatTracker"
     },
     "author": "",
+    "license": "ISC",
     "bugs": {
-      "url": "https://github.com/justindjsuh/StatTracker/issues"
+        "url": "https://github.com/justindjsuh/StatTracker/issues"
     },
     "homepage": "https://github.com/justindjsuh/StatTracker/blob/main/README.md",
     "devDependencies": {
-      "testem": "^2.14.0",
-      "eslint": "^7.4.0",
-      "eslint-config-prettier": "^6.11.0",
-      "eslint-plugin-prettier": "^3.1.4",
-      "prettier": "^2.0.5"
+        "eslint": "^7.4.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-prettier": "^3.1.4",
+        "nodemon": "^2.0.20",
+        "prettier": "^2.0.5",
+        "testem": "^2.14.0"
+    },
+    "dependencies": {
+        "discord.js": "^14.6.0",
+        "dotenv": "^16.0.3"
     }
-  }
+}
